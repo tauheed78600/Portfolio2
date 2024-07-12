@@ -1,0 +1,17 @@
+.greeting{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 100px;
+    right: 400px;
+}   
+
+.typewriter{
+    justify-content: center;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    position: relative;
+    top: 200px;
+    right: 400px;
+}
