@@ -53,7 +53,7 @@ body, html {
     display: flex;
     gap: 20px;
     position: relative;
-    left: -550px;
+    left: -400px;
 }
 
 .nav-links li {
@@ -70,6 +70,24 @@ body, html {
 
 .nav-links li a:hover {
     background-color: #9e099e;
+}
+
+.leftOnNav{
+    display: flex;
+    position: relative;
+    left: -500px
+}
+
+.rightOnNav{
+    display: flex;
+    position: relative;
+    right: -350px;
+}
+
+.menuOnNav{
+    position: relative;
+    right: -650px;
+    cursor: pointer;
 }
 
 .content {

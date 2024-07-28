@@ -1,13 +1,16 @@
 import React from 'react'
 import '../styles/Home.css'
 import Typewriter from "typewriter-effect";
+import Footer from './Footer';
+import image from '../Assets/manWithLaptop.png';
+import HomeBelow from './HomeBelow';
 
 function Home() {
   return (
     <div className='home_container'>
       <div className='heading'>
             <div className='greeting'>
-                Hi there I am Tauheed
+                Hi There I am Tauheed
             </div>
             <div className='typewriter'>
             <Typewriter
@@ -22,7 +25,14 @@ function Home() {
                 }}
             />
             </div>
+            <div className='imgLaptop'>
+                <img src={image}
+                alt = "image">
+                </img>
+            </div>
+            <HomeBelow/>
       </div>
+      <Footer/>
     </div>
   )
 }
