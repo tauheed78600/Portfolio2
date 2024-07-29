@@ -19,6 +19,7 @@ body, html {
     color: #fff;
     display: flex;
     align-items: center;
+    backdrop-filter: blur(10px);
     justify-content: space-between;
     padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
