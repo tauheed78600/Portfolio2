@@ -195,3 +195,38 @@
   .card4:hover .go-arrow {
     opacity: 1;
   }
+
+  .github12 {
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  
+  .github12:hover {
+    color: white;
+  }
+  
+  .github12::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: purple;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .github12:hover::before {
+    width: 160%;
+  }
