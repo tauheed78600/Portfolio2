@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.vertical-timeline-element-title {
+    font-weight: bold;
+}
+
+.vertical-timeline-element-subtitle {
+    color: gray;
+}
+
+.footer-experience{
+    position: fixed;
+}
