@@ -76,7 +76,7 @@ body, html {
 .leftOnNav{
     display: flex;
     position: relative;
-    left: -500px
+    left: -470px
 }
 
 .rightOnNav{
@@ -92,5 +92,5 @@ body, html {
 }
 
 .content {
-    padding: 80px 20px; /* Adjust based on your navbar height */
+    padding: 80px 20px;
 }

@@ -7,12 +7,10 @@ function Experience() {
   return (
     <div className="App">
         <div>
-        <h1>My Experience</h1>
+        <h1 className='experience'>My Experience</h1>
         <ExperienceTimeline />
         </div>
-        <div classname = 'footer-experience'>
           <Footer/>
-        </div>
     </div>
     
   )

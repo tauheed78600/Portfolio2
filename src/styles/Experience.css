@@ -1,17 +1,62 @@
-/* src/App.css */
-.App {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+/* src/styles/Experience.css */
+.vertical-timeline-element {
+    border-radius: 15px;
+    padding: 20px; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+.vertical-timeline-element:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+
+}
+
+.vertical-timeline-element-date {
+    color: white !important; /* Set the color of the date to white */
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Bold font */
 }
 
 .vertical-timeline-element-title {
-    font-weight: bold;
+    color: aliceblue;
+    font-size: 1.5rem; 
+    margin-bottom: 5px; 
 }
 
 .vertical-timeline-element-subtitle {
-    color: gray;
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
 }
 
-.footer-experience{
-    position: fixed;
+.vertical-timeline-element-content {
+    color: aliceblue;
+    font-size: 1rem; 
+    line-height: 1.5; 
+}
+
+.experience {
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+
+.vertical-timeline-element-content.bounce-in{
+    background: #550363;
+}
+
+.vertical-timeline-element-icon.bounce-in{
+    background: #550363;
 }

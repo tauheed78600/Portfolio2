@@ -1,3 +1,17 @@
+.card {
+  width: 300px; /* Set fixed width */
+  height: 450px; /* Set fixed height */
+  background: linear-gradient(135deg, #83057b 0%, #e6f2ff 100%); /* Gradient background */
+
+  padding: 20px; /* Inner spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure space between elements */
+  align-items: flex-start; /* Align items to the start */
+}
+
 .card p {
     font-size: 17px;
     font-weight: 400;
