@@ -1,0 +1,14 @@
+.aboutSection{
+    justify-content: space-evenly;
+}
+
+.imgAbout{
+    position: relative;
+    top: -100px;
+    left: 400px;
+}
+
+.aboutPara{
+    position: relative;
+    left: -600px;
+}

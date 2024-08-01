@@ -17,7 +17,7 @@ function Projects() {
     {
         title: 'Bus Reservation System for reserving and cancelling seats',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSbpWz8SUrRq7EZL-tE73XEN-oSUPFgA3KQ&s',
-        description: 'A Web Application for Bus Reservation with a login page where users can create and login their account and reserve the seats, display the seats available and cancel the reservation. This Application follows MVC Software methodology. The UI for this web application is made using HTML and CSS.'
+        description: 'A Web Application for Bus Reservation with a login page where users can create and login their account and reserve the seats, display the seats available and cancel the reservation. This Application backend is made in Spring boot and it follows MVC Software methodology. The UI for this web application is made using ReactJS.'
     }
 ];
 

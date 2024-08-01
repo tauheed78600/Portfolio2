@@ -48,7 +48,7 @@ export default function HomeBelow() {
             </p>
             </div>
             <div className='social'>
-                <b classname = 'home-about-body123'>Feel free to <b className='purple'>connect</b> with me on</b><br />
+                <b className = 'home-about-body123'>Feel free to <b className='purple'>connect</b> with me on</b><br />
                 <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>

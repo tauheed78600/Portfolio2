@@ -1,22 +1,21 @@
 .card {
-  width: 300px; /* Set fixed width */
-  height: 450px; /* Set fixed height */
-  background: linear-gradient(135deg, #83057b 0%, #e6f2ff 100%); /* Gradient background */
-
-  padding: 20px; /* Inner spacing */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+  width: 300px;
+  height: 450px; 
+  background: linear-gradient(135deg, #9e099e 0%, #e6f2ff 100%);
+  /* padding: 1px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensure space between elements */
-  align-items: flex-start; /* Align items to the start */
+  justify-content: space-evenly;
+  align-items: flex-start; 
 }
 
 .card p {
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
-    color: #666;
+    color: #f7f3f3;
   }
   
   .card p.small {
@@ -48,7 +47,7 @@
     display: block;
     position: relative;
     max-width: 262px;
-    background-color: #f2f8f9;
+    background-color: #6a0579;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
@@ -72,19 +71,6 @@
     transition: transform 0.25s ease-out;
   }
   
-  .card1:hover:before {
-    transform: scale(21);
-  }
-  
-  .card1:hover p {
-    transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .card1:hover h3 {
-    transition: all 0.3s ease-out;
-    color: #fff;
-  }
   
   .card2 {
     display: block;
@@ -211,10 +197,10 @@
   }
 
   .github12 {
-    color: purple;
+    color: rgb(250, 247, 250);
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid purple;
+    border: 2px solid rgb(245, 215, 245);
     padding: 10px 20px;
     font-size: 17px;
     font-weight: bold;
@@ -225,7 +211,8 @@
   }
   
   .github12:hover {
-    color: white;
+    color: rgb(71, 2, 37);
+    
   }
   
   .github12::before {
@@ -236,9 +223,10 @@
     top: 0;
     left: -40px;
     transform: skewX(45deg);
-    background-color: purple;
+    background-color: rgb(247, 244, 247);
     z-index: -1;
     transition: all 1s;
+    
   }
   
   .github12:hover::before {

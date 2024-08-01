@@ -4,12 +4,12 @@ import '../styles/Card.css';
 
 function Card({ title, description }) {
     return (
-        <div class="card">
-        <a class="card1" href="#">
+        <div className="card">
+        <a className="card1" href="#">
           <p>{title}</p>
-          <p class="small">{description}</p>
-          <div class="go-corner" href="#">
-            <div class="go-arrow">
+          <p className="small">{description}</p>
+          <div className="go-corner" href="#">
+            <div className="go-arrow">
               →
             </div>
           </div>
