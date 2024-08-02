@@ -32,7 +32,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('/public/port_wallpaper.jpg') no-repeat center center fixed;
+    background: url('/public/darkPurple.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the wallpaper covers the entire background */
 }
 
