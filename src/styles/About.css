@@ -1,3 +1,41 @@
-.home-about-body{
-    font-size: 30px;
+.aboutSection {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: space-between; /* Space between the sections */
+    gap: 20px; /* Optional: add space between sections */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+  }
+ 
+  
+  .intro {
+    flex: 1; /* Allow this div to take up available space */
+    max-width: 50%; /* Restrict its maximum width */
+  }
+
+
+.knowWho{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
 }
+
+.about-activity {
+    list-style: none !important;
+    text-align: left !important;
+    padding-left: 120px !important;
+}
+
+.aboutSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.imgAbout {
+    flex: 1;
+    max-width: 30%;
+    height: auto; 
+    box-sizing: border-box;
+    position: relative;
+    left: -100px;
+  }

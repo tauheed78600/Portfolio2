@@ -2,13 +2,20 @@
     color: rgb(243, 46, 243);
 }
 
+.intro123{
+    flex-wrap: wrap;
+}
+
 .home-about-body{
     font-size: 25px;
     color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .home-about-body123{
     color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 .social {
@@ -19,16 +26,23 @@
 .social a {
     margin: 0 15px; 
     font-size: 2rem; 
-    color: #000;
+    color: #faf7f7;
     transition: color 0.3s;
 }
 
 .social a:hover {
-    color: #0073b1;
+    color: #4d046d;
 }
 
+.lemmeno{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    /* position: relative;
+    left: 400px; */
+}
 
 .connect1{
     font-size: 10px;
     color: rgb(253, 247, 253);
 }
+
