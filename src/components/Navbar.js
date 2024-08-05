@@ -19,7 +19,7 @@ function Navbar() {
                 <h1 className='menuOnNav' onClick = {reload}>Tauheed Darekar</h1>
                 <ul className="nav-links">
                     <div className='leftOnNav'>
-                        <li><Link to="/home" onClick={toggleNavbar}>Home</Link></li>
+                        <li><Link to="/" onClick={toggleNavbar}>Home</Link></li>
                         <li><Link to="/about" onClick={toggleNavbar}>About</Link></li>
                         <li><Link to="/projects" onClick={toggleNavbar}>Projects</Link></li>
                     </div>

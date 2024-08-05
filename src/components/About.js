@@ -10,7 +10,7 @@ function About() {
       <div className='intro'>
             <div className='headIntro'>
             <h1 style={{ fontSize: "2.4em"}}>
-              Know Who <span className="purple"> I'M </span>
+              <p className='knowWho'>Know Who <span className="purple"> I'M </span></p>
             </h1>
             </div>
             <p className="home-about-body">

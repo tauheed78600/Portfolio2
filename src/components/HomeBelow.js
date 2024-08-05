@@ -9,12 +9,12 @@ export default function HomeBelow() {
       <div className='intro'>
             <div className='headIntro'>
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <p className='letme'>LET ME <span className="purple"> INTRODUCE </span> MYSELF</p>
             </h1>
             </div>
             <p className="home-about-body">
-              I am a Computer Science Student currently pursuing Masters from NIT Goa 
-              <span className="purple">I have completed my Bachelors in 2022 from Trinity Academy of Engineering 🤷‍♂️</span>
+              I am a Computer Science Student currently pursuing Masters from NIT Goa.<br/>
+              <span className="purple"> I have completed my Bachelors in 2022 from Trinity Academy of Engineering 🤷‍♂️</span>
               <br />
               <br />I am fluent in programming languages like
               <i>
@@ -36,7 +36,7 @@ export default function HomeBelow() {
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; like <br/>
               <i>
                 <b className="purple"> React.js for frontend and Nest.js or Node.js for backend</b>
               </i>
