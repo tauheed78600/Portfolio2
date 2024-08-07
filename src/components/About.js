@@ -3,6 +3,8 @@ import React from 'react';
 import Footer from './Footer';
 import imgAbout from "../Assets/aboutIMage.png";
 import "../styles/About.css";
+import { ImPointRight } from "react-icons/im";
+import AboutBelow from './AboutBelow';
 
 function About() {
   return (
@@ -25,10 +27,10 @@ function About() {
               <br />
               I have completed Bachelors degree in CSE from &nbsp;
               <i>
-                <b className="purple">Trinity Academy of Engineering </b> 
+                <b className="purple">Trinity Academy of Engineering </b> <br/>
               </i>
 
-              and completed Master's degree in CSE from <b className="purple">National Institute of Technnology, Goa</b> and
+              and completed Master's degree in CSE from <b className="purple">National Institute of Technnology, Goa</b>
               <i>
                 <b className="purple">
                   {" "}
@@ -38,10 +40,26 @@ function About() {
               <br/>
               <br/>
               &nbsp; Apart from coding, some other activities that I love to do!
-              
+              <ul>
+            <li className="about-activity">
+              <ImPointRight /> Playing Cricket
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Table Tennis
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Badminton
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul>
             </p>
+            
             </div>
+            
       <img className="imgAbout" src={imgAbout} alt="About Tauheed" />
+      <AboutBelow/>
       <Footer/>
     </div>
   )

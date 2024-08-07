@@ -1,234 +1,34 @@
+/* Card.css */
 .card {
-  width: 300px;
-  height: 450px; 
-  background: linear-gradient(135deg, #9e099e 0%, #e6f2ff 100%);
-  /* padding: 1px; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start; 
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for contrast */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation on hover */
 }
 
-.card p {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #f7f3f3;
-  }
-  
-  .card p.small {
-    font-size: 14px;
-  }
-  
-  .go-corner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    background-color: #e619c0;
-    border-radius: 0 4px 0 32px;
-  }
-  
-  .go-arrow {
-    margin-top: -4px;
-    margin-right: -4px;
-    color: white;
-    font-family: courier, sans;
-  }
-  
-  .card1 {
-    display: block;
-    position: relative;
-    max-width: 262px;
-    background-color: #6a0579;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-  }
-  
-  .card1:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: #e619c0;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
-    transform: scale(1);
-    transform-origin: 50% 50%;
-    transition: transform 0.25s ease-out;
-  }
-  
-  
-  .card2 {
-    display: block;
-    top: 0px;
-    position: relative;
-    max-width: 262px;
-    background-color: #f2f8f9;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
-  }
-  
-  .card2:hover {
-    transition: all 0.2s ease-out;
-    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-    top: -4px;
-    border: 1px solid #ccc;
-    background-color: white;
-  }
-  
-  .card2:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: #e619c0;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
-    transform: scale(2);
-    transform-origin: 50% 50%;
-    transition: transform 0.15s ease-out;
-  }
-  
-  .card2:hover:before {
-    transform: scale(2.15);
-  }
-  
-  .card3 {
-    display: block;
-    top: 0px;
-    position: relative;
-    max-width: 262px;
-    background-color: #f2f8f9;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
-  }
-  
-  .card3 .go-corner {
-    opacity: 0.7;
-  }
-  
-  .card3:hover {
-    border: 1px solid #e619c0;
-    box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
-    z-index: 500;
-  }
-  
-  .card3:hover p {
-    color: #e619c0;
-  }
-  
-  .card3:hover .go-corner {
-    transition: opactiy 0.3s linear;
-    opacity: 1;
-  }
-  
-  .card4 {
-    display: block;
-    top: 0px;
-    position: relative;
-    max-width: 262px;
-    background-color: #fff;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
-    text-decoration: none;
-    overflow: hidden;
-    border: 1px solid #ccc;
-  }
-  
-  .card4 .go-corner {
-    background-color: #e619c0;
-    height: 100%;
-    width: 16px;
-    padding-right: 9px;
-    border-radius: 0;
-    transform: skew(6deg);
-    margin-right: -36px;
-    align-items: start;
-    background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
-  }
-  
-  .card4 .go-arrow {
-    transform: skew(-6deg);
-    margin-left: -2px;
-    margin-top: 9px;
-    opacity: 0;
-  }
-  
-  .card4:hover {
-    border: 1px solid #cd3d73;
-  }
-  
-  .card4 h3 {
-    margin-top: 8px;
-  }
-  
-  .card4:hover .go-corner {
-    margin-right: -12px;
-  }
-  
-  .card4:hover .go-arrow {
-    opacity: 1;
-  }
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
 
-  .github12 {
-    color: rgb(250, 247, 250);
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid rgb(245, 215, 245);
-    padding: 10px 20px;
-    font-size: 17px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 1s;
-    overflow: hidden;
-  }
-  
-  .github12:hover {
-    color: rgb(71, 2, 37);
-    
-  }
-  
-  .github12::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -40px;
-    transform: skewX(45deg);
-    background-color: rgb(247, 244, 247);
-    z-index: -1;
-    transition: all 1s;
-    
-  }
-  
-  .github12:hover::before {
-    width: 160%;
-  }
+.card-image {
+  width: 100%;
+  border-radius: 1px; /* Match card corner radius */
+  height: auto;
+}
+
+.card-content {
+  color: #fff; /* Text color for readability */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Title size */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.card-description {
+  font-size: 1rem; /* Description size */
+  line-height: 1.5; /* Line height for readability */
+}

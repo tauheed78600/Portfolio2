@@ -1,15 +1,15 @@
 import React from 'react'
 import "../styles/HomeBelow.css"
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-
+import myImg from '../Assets/avatar.svg'
 
 export default function HomeBelow() {
   return (
     <div>
-      <div className='intro'>
+      <div className='intro123'>
             <div className='headIntro'>
             <h1 style={{ fontSize: "2.6em" }}>
-              <p className='letme'>LET ME <span className="purple"> INTRODUCE </span> MYSELF</p>
+              <p className='lemmeno'>LET ME <span className="purple"> INTRODUCE </span> MYSELF</p>
             </h1>
             </div>
             <p className="home-about-body">
@@ -33,7 +33,7 @@ export default function HomeBelow() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Library and Frameworks <br/>
                 </b>
               </i>
               &nbsp; like <br/>
@@ -46,6 +46,7 @@ export default function HomeBelow() {
                   Spring boot and Spring MVC Architecture
                 </b>
             </p>
+            <img className = 'svgImage' src = {myImg} alt = "my image"></img>
             </div>
             <div className='social'>
                 <b className = 'home-about-body123'>Feel free to <b className='purple'>connect</b> with me on</b><br />

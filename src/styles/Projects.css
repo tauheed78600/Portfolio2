@@ -1,18 +1,59 @@
-/* App.css */
 .app {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; /* White text for contrast */
     padding: 20px;
-    min-height: 100vh;
+    min-height: 100vh; /* Make sure it covers the full height */
+}
+
+.projectHeading {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .card-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    max-width: 1200px; /* Set a maximum width for better layout */
+    gap: 1px;
 }
 
-.projectHeading{
-    color: rgb(249, 250, 252);
+.card {
+    background-color: #6A0DAD; /* Lighter shade of violet for the cards */
+    border-radius: 10px;
+    width: calc(30% - 20px); /* Adjust width to fit 3 in a row with spacing */
+    margin: 10px; /* Add margin for spacing between cards */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    height: 600px;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.card-content {
+    padding: 15px; /* Inner padding for the card */
+}
+
+.card-content h2 {
+    margin: 10px 0; /* Space around title */
+    font-size: 1.5rem; /* Title size */
+}
+
+.card-content p {
+    font-size: 1rem; /* Description size */
+    color: #f0f0f0; /* Slightly lighter text */
 }

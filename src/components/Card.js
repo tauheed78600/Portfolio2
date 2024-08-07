@@ -1,22 +1,17 @@
 // Card.js
 import React from 'react';
-import '../styles/Card.css';
+import "../styles/Card.css";
 
-function Card({ title, description }) {
+function Card({ title, image, description }) {
     return (
         <div className="card">
-        <a className="card1">
-          <p>{title}</p>
-          <p className="small">{description}</p>
-          <div className="go-corner">
-            <div className="go-arrow">
-              →
+            <img src={image} alt={title} className="card-image" />
+            <div className="card-content">
+                <h2 className="card-title">{title}</h2>
+                <p className="card-description">{description}</p>
             </div>
-          </div>
-          <button className='github12'>Github</button>
-        </a>
-      </div>
-);
+        </div>
+    );
 }
 
 export default Card;
