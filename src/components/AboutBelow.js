@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPython, FaJava, FaReact, FaNodeJs } from 'react-icons/fa';
 import { DiMysql, DiVisualstudio, DiEclipse, DiGithub, DiBitbucket } from 'react-icons/di';
-import { SiSpringboot, SiPycharm, SiPostman, SiC } from 'react-icons/si';
+import { SiSpringboot, SiPycharm, SiPostman, SiC, SiNestjs } from 'react-icons/si';
 
 
 function AboutBelow() {
@@ -9,6 +9,10 @@ function AboutBelow() {
       <div className="about-container">
         <h1 className='profClass'>Professional <b className='purple'>Skillset</b></h1>
         <div className="skills">
+        <div className="skill">
+            <SiC />
+            <span>C</span>
+          </div>
           <div className="skill">
             <FaPython />
             <span>Python</span>
@@ -23,16 +27,21 @@ function AboutBelow() {
           </div>
           <div className="skill">
             <FaNodeJs />
-            <span>Node.js</span>
+            <span>NodeJS</span>
+          </div>
+          <div className="skill">
+            <SiNestjs />
+            <span>NestJS</span>
           </div>
           <div className="skill">
             <FaReact />
-            <span>React.js</span>
+            <span>ReactJS</span>
           </div>
           <div className="skill">
             <SiSpringboot />
             <span>Spring Boot</span>
           </div>
+          
         </div>
   
         <h1 className='toolsClass'>Tools</h1>
