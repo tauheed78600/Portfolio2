@@ -15,20 +15,82 @@
 
 .card-image {
   width: 100%;
-  border-radius: 1px; /* Match card corner radius */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; /* Match card corner radius */
   height: auto;
 }
 
+.cards{
+  background-color: rgb(40, 2, 71);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 .card-content {
-  color: #fff; /* Text color for readability */
+  color: #b6b4b4; /* Text color for readability */
 }
 
 .card-title {
   font-size: 1.5rem; /* Title size */
   margin-bottom: 10px; /* Space below title */
+  color : rgb(239, 238, 241)
 }
-
+.cardDiv{
+  
+}
 .card-description {
   font-size: 1rem; /* Description size */
   line-height: 1.5; /* Line height for readability */
+  color : rgb(53, 13, 13)
+}
+
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
 }

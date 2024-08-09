@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
         <Route path='/experience' element = {<Experience/>} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
+
 
 export default App;

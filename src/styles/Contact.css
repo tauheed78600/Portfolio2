@@ -12,14 +12,40 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  padding: 30px;
+  padding-left : 15px ;
   max-width: 500px;
+  margin-top : 30px ;
+  padding-top : 10px ;
   width: 100%;
   transition: transform 0.3s ease;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+
+
+.inputCon{
+  padding : 0px ;
+}
+.input-box{
+  height : 110px ;
+  width : 80% ;
+  color :black ;
+  background-color : rgb(158, 151, 151) ;
+  border-color: none;
+  border : none ;
+  border-radius : 5px ;
+
+}
+.input-boxs{
+  width : 80% ;
+  height : 35px ;
+  color : black ;
+  background-color : rgb(158, 151, 151) ;
+  border-color: none;
+  border : none ;
+  border-radius : 5px ;
+}
 .contact-card:hover {
   transform: translateY(-10px);
 }

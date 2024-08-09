@@ -1,18 +1,9 @@
 /* Existing CSS */
 
 .aboutSection {
-  display: flex;
-  align-items: flex-start; /* Align items at the top */
-  justify-content: space-between; /* Space between the sections */
-  gap: 20px; /* Optional: add space between sections */
-  flex-wrap: wrap; /* Allow items to wrap if necessary */
-  
 }
 
 .intro {
-  flex: 1; /* Allow this div to take up available space */
-  max-width: 50%; /* Restrict its maximum width */
-  display: flexbox;
 }
 
 .knowWho {
@@ -27,21 +18,13 @@
 }
 
 .aboutSection {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  
 }
 
 .imgAbout {
-  flex: 1;
-  max-width: 30%;
-  height: auto;
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  left: -100px;
-  margin-top: -100px;
+  width : 100%;
+  position : relative ;
+  bottom : 30px ;
 }
 
 /* Additional CSS for Professional Skillset and Tools */
