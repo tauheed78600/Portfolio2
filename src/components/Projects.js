@@ -7,7 +7,7 @@ function Projects() {
     {
         title: 'An Expense Tracker website designed for managing and tracking expenses',
         image: 'https://as2.ftcdn.net/v2/jpg/04/89/50/53/1000_F_489505318_jFQycyt76uwVJqCja2Eb33UA7vo7YEAQ.jpg',
-        description: 'A System designed to track the daily expenses of a user. User will be able track its expenses, set monthly budget, visualize the expenses category wise or payment mode wise, get daily, monthly and weekly reports for the expenses. The backend of this system is developed using NestJS Framework and UI is designed using ReactJS.'
+        description: 'A System designed to track the daily expenses of a user. User will be able track its expenses, set monthly budget, visualize the expenses category wise, get daily, monthly and weekly reports for the expenses. The backend of this system is developed using NestJS Framework and UI is designed using ReactJS.'
     },
     {
         title: 'A Telegram bot for scheduling daily/ monthly weather updates using OpenWeather API',
@@ -28,7 +28,7 @@ function Projects() {
 
 return (
     <div className="app">
-        <h1 className='projectHeading'>Here are some of the Projects which I have been recently worked on</h1>
+        <h1 className='projectHeading'>Here are some of the <b className='purple'>Projects</b> which I have been recently worked on</h1>
         <div className="card-container">
             {cards.map((card, index) => (
                 <Card 

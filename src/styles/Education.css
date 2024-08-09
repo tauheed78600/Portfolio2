@@ -1,0 +1,84 @@
+.education-section {    color: white;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.education-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.education-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.education-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.education-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.education-card .duration {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.education-card .description {
+    font-size: 0.9rem;
+    color: #dddddd;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.education-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    transition: all 0.5s;
+    z-index: 0;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.education-card:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}

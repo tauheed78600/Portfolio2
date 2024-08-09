@@ -92,3 +92,12 @@
 .skill:hover svg, .tool:hover svg {
   color: #a620b8;
 }
+
+.whitegfg{
+  color: aliceblue;
+}
+
+.gfgImage{
+  height: 300px;
+  width: 1000px;
+}
