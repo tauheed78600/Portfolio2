@@ -2,7 +2,8 @@ import React from 'react';
 import { FaPython, FaJava, FaReact, FaNodeJs } from 'react-icons/fa';
 import { DiMysql, DiVisualstudio, DiEclipse, DiGithub, DiBitbucket } from 'react-icons/di';
 import { SiSpringboot, SiPycharm, SiPostman, SiC } from 'react-icons/si';
-
+import gfg from'../Assets/gfg_cropped.png'
+import leetcode from '../Assets/leetcode_cropped.png'
 
 function AboutBelow() {
     return (
@@ -61,6 +62,13 @@ function AboutBelow() {
             <SiPostman />
             <span>Postman</span>
           </div>
+        </div>
+        <h1 className='profClass'>Coding <b className='purple'>Profiles</b></h1>
+        <div className='codingProf'>
+            <h1 className='purple'>Geeks For Geeks</h1>
+            <img className='gfgImage' src={gfg}></img>
+            <h1 className='purple'>Leetcode</h1>
+            <img className='leetImage' src = {leetcode}></img>
         </div>
       </div>
     );

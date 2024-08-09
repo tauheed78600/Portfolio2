@@ -10,6 +10,7 @@ function Card({ title, image, description }) {
                 <h2 className="card-title">{title}</h2>
                 <p className="card-description">{description}</p>
             </div>
+            <button>Github</button>
         </div>
     );
 }
