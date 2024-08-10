@@ -42,6 +42,9 @@ function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item px-1 fs-5">
+                                <NavLink to = "/resume" className="nav-link">Resume</NavLink>
+                            </li>
+                            <li className="nav-item px-1 fs-5">
                                 <NavLink to = "/contact" className="nav-link">Contact</NavLink>
                             </li>
                             <li className="px-5">

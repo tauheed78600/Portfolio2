@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPython, FaJava, FaReact, FaNodeJs } from 'react-icons/fa';
 import { DiMysql, DiVisualstudio, DiEclipse, DiGithub, DiBitbucket } from 'react-icons/di';
 import { SiSpringboot, SiPycharm, SiPostman, SiC, SiNestjs } from 'react-icons/si';
+import gfg from'../Assets/gfg_cropped.png'
 import leetcode from '../Assets/leetcode_cropped.png'
 import gfg1 from '../Assets/gfg_cropped.png'
 
@@ -39,6 +40,14 @@ function AboutBelow() {
             <span>ReactJS</span>
           </div>
           <div className="skill">
+            <SiNestjs />
+            <span>NestJs</span>
+          </div>
+          <div className="skill">
+            <SiC />
+            <span>C</span>
+          </div>
+          <div className="skill">
             <SiSpringboot />
             <span>Spring Boot</span>
           </div>
@@ -72,7 +81,7 @@ function AboutBelow() {
             <span>Postman</span>
           </div>
         </div>
-       
+        
       </div>
     );
   }

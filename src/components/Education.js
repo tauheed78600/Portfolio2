@@ -4,22 +4,24 @@ import '../styles/Education.css';
 const Education = () => {
     const educationData = [
         {
-            institution: 'University of Technology',
-            degree: 'Bachelor of Science in Computer Science',
+            institution: 'Trinity Academy of Engineering, Pune',
+            degree: 'BTech in Computer Science Engineering',
             duration: '2018 - 2022',
-            description: 'Learned various programming languages, algorithms, and software development methodologies.'
+            description: 'Completed BTech with 8.56 CGPA overall',
+            projectsDone: {
+                project1: "Heart disease Prediction using Naive Bayes Machine Learning Algorithm",
+                project2: "Symptoms based disease prediction using Machine Learning Algorithms such as Naive Bayes, Decision Tree and Random Forest Machine Learning Algorithms "
+            }
         },
         {
-            institution: 'Online Coding Bootcamp',
-            degree: 'Full Stack Developer Certificate',
-            duration: '2022 - 2023',
-            description: 'Intensive training in front-end and back-end technologies, focusing on building web applications.'
-        },
-        {
-            institution: 'Advanced JavaScript Workshop',
-            degree: 'Certification',
-            duration: '2023',
-            description: 'Deep dive into advanced JavaScript concepts, including ES6 features and asynchronous programming.'
+            institution: 'National Institute of Technology, Goa',
+            degree: 'MTech in Computer Science Engineering',
+            duration: '2022 - 2024',
+            description: 'Completed MTech with 7.55 CGPA overall',
+            projectsDone: {
+                project1: "An automation system designed to automate the process of approving/rejecting leaves of students/faculties developed using Android Studio",
+                project2: "NCVI: Noise and Complex structure aligned Validity Index for evaluating the validity of clusters"
+            }
         }
     ];
 
@@ -33,6 +35,14 @@ const Education = () => {
                         <h3>{edu.degree}</h3>
                         <p className="duration">{edu.duration}</p>
                         <p className="description">{edu.description}</p>
+                        <div className="projects">
+                            <h4 className="projects-heading">Projects Done:</h4>
+                            <ul>
+                                {Object.values(edu.projectsDone).map((project, i) => (
+                                    <li key={i} className="project-item">{project}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                 ))}
             </div>
