@@ -8,8 +8,20 @@ body, html {
     display: flex;
     flex-direction: column;
 }
+.navv {
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 0; /* Sticks the navbar to the top of the page */
+    width: 100%; /* Makes the navbar span the full width of the viewport */
+    z-index: 1000; /* Ensures the navbar stays above other content */ /* Ensure the background color matches the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better visual distinction */
+}
 
-.navbar {
+.container-fluid{
+    color: antiquewhite;
+}
+
+.navbars {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +44,7 @@ body, html {
 }
 
 .toggle-button {
-    font-size: 24px;
+    font-size: 10px;
     background: none;
     border: none;
     color: #fff;
@@ -46,7 +58,14 @@ body, html {
     color: #fff;
     cursor: pointer;
 }
-
+.btnColor1{
+    color : white ;
+    background-color: #6a0579;
+}
+.btnColor2{
+    color : white ;
+    background-color: #6a0579;
+}
 .nav-links {
     list-style: none;
     padding: 0;
@@ -59,12 +78,13 @@ body, html {
 
 .nav-links li {
     margin: 0;
+    font-size: 1px;
 }
 
 .nav-links li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1px;
     padding: 10px 20px;
     border-radius: 4px;
 }

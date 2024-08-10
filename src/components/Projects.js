@@ -28,7 +28,7 @@ function Projects() {
 
 return (
     <div className="app">
-        <h1 className='projectHeading'>Here are some of the <b className='purple'>Projects</b> which I have been recently worked on</h1>
+        <h1 className='projectHeading'>Here are some of the Projects which I have been recently worked on</h1>
         <div className="card-container">
             {cards.map((card, index) => (
                 <Card 

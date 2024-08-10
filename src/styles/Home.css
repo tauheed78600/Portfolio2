@@ -1,24 +1,21 @@
 .greeting {
-  font-size: 70px;
+  font-size: 35px;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
-  top: 100px;
-  left: 23%;
-  transform: translateX(-50%);
+  top: 50px;
   color: aliceblue;
+  text-align : left;
 }
 
 .typewriter {
-  font-size: 70px;
-  margin-top: 10px;
-  min-height: 2rem;
+  font-size: 50px;
   color: #f6f5fa;
   text-align: left;
   position: relative;
   font-family: 'Times New Roman', Times, serif;
-  top: 100px;
-  left: 51%;
-  transform: translateX(-50%);
+  top: 50px;
+  
+  
 }
 
 .typewriter > .Typewriter__wrapper {
@@ -31,14 +28,8 @@ body {
   overflow-x: hidden;
 }
 
-.imgLaptop {
-  position: relative;
-  left: 350px;
-  top: -150px; 
-  height: auto; 
-  width: 50%;
-  display: block; 
-  margin: 0 auto; 
+.imgLaptop { 
+  width: 85%;  
 }
 
 .h1Intro{
@@ -71,6 +62,6 @@ body {
 .imgLaptop img {
   display: block;
   margin: 0 auto;
-  max-width: 100%; /* Ensure image is responsive */
+  width: 100%; /* Ensure image is responsive */
   height: auto; /* Maintain aspect ratio */
 }

@@ -10,7 +10,7 @@ function Experience() {
         <h1 className='experience'>My Experience</h1>
         <ExperienceTimeline />
         </div>
-          <Footer/>
+         
     </div>
     
   )
