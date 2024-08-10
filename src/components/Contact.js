@@ -46,10 +46,10 @@ const ContactForm = () => {
               <h2>Contact me</h2>
               <form onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col-3">
+                  <div className="col-2">
                     <label htmlFor="name" className="fs-3 text-light">Name:</label>
                   </div>
-                  <div className="col-9 inputCon pb-4">
+                  <div className="col-10 inputCon pb-5">
                     <input
                       type="text"
                       id="name"
@@ -61,10 +61,10 @@ const ContactForm = () => {
                       required
                     />
                   </div>
-                  <div className="col-3">
+                  <div className="col-2">
                     <label htmlFor="name" className="fs-3 text-light">Email:</label>
                   </div>
-                  <div className="col-9 inputCon pb-4">
+                  <div className="col-10 inputCon pb-5">
                     <input
                       type="email"
                       id="email"
@@ -77,10 +77,10 @@ const ContactForm = () => {
                     />
                   </div>
 
-                  <div className="col-3">
+                  <div className="col-2">
                     <label htmlFor="name" className="fs-3 text-light">Phone:</label>
                   </div>
-                  <div className="col-9 inputCon pb-4">
+                  <div className="col-10 inputCon pb-5">
                     <input
                       type="tel"
                       id="phone"
@@ -93,10 +93,10 @@ const ContactForm = () => {
                     />
                   </div>
 
-                  <div className="col-3">
+                  <div className="col-2">
                     <label htmlFor="name" className="fs-3 text-light">Message</label>
                   </div>
-                  <div className="col-9 inputCon pb-4">
+                  <div className="col-10 inputCon pb-5">
                     <textarea
                       id="message"
                       name="message"
@@ -108,7 +108,7 @@ const ContactForm = () => {
                     ></textarea>
                   </div>
                 </div>
-                <button type="submit" className="submit-button mt-2 pb-3 pt-0 ">Send</button>
+                <button type="submit" className="submit-button m-5 mt-2 mb-4 pb-2 pt-2 ">Send</button>
               </form>
             </div>
           </div>
