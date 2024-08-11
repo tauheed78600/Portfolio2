@@ -50,9 +50,11 @@ export default function HomeBelow() {
             </div>
             <div className='social'>
                 <b className = 'home-about-body123'>Feel free to <b className='purple'>connect</b> with me on</b><br />
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+
+                <a href="https://www.linkedin.com/in/tauheed-darekar-442553258/" target="_blank" rel="noopener noreferrer" className="linkedin-icon">
                     <FaLinkedin />
                 </a>
+
                 <a href="https://github.com/tauheed78600/" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>

@@ -42,6 +42,7 @@ function Projects() {
                             title={card.title}
                             image={card.image}
                             description={card.description}
+                            githubLink={card.githubLink}
                         />
                     ))}
                 </div>
