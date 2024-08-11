@@ -33,7 +33,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 500px;
     transition: transform 0.3s, box-shadow 0.3s;
     backdrop-filter: blur(10px);
     position: relative;
@@ -62,7 +62,7 @@
 
 .education-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(148, 4, 158, 0.3);
 }
 
 .education-card::before {
@@ -72,7 +72,7 @@
     left: 50%;
     width: 300%;
     height: 300%;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(81, 2, 81, 0.15);
     border-radius: 50%;
     transition: all 0.5s;
     z-index: 0;

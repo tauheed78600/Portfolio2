@@ -28,7 +28,7 @@
     margin: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
-    height: 650px;
+    height: 750px;
 }
 
 .card:hover {
@@ -46,6 +46,7 @@
 
 .card-content {
     padding: 15px;
+    height: 270px;
 }
 
 .card-content h2 {

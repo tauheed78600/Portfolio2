@@ -52,3 +52,6 @@
     color: rgb(253, 247, 253);
 }
 
+.linkedin-icon svg {
+    font-size: 30px; /* Adjust the size as needed */
+}

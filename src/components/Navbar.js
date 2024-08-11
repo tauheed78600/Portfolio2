@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
 import { NavLink } from 'react-router-dom';
+import { CgGitFork } from "react-icons/cg";
+import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { AiFillStar } from "react-icons/ai";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -53,8 +58,17 @@ function Navbar() {
                         </ul>
                         <div>
                             <div className="btn-group">
-                                <a href = "https://github.com/tauheed78600"><button className="btn btnColor1 p-2 m-1">Github</button></a>
-                                <a href = "https://www.linkedin.com/in/tauheed-darekar-442553258/"><button className="btn btnColor2 p-2 m-1">LinkedIn</button></a>
+                            <Nav.Item className="fork-btn">
+                                <Button
+                                    href="https://github.com/tauheed78600/Portfolio2"
+                                    target="_blank"
+                                    className="fork-btn-inner"
+                                >
+                                    <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                                    <AiFillStar style={{ fontSize: "1.1em" }} />
+                                </Button>
+                            </Nav.Item>
+
                             </div>
                         </div>
                     </div>
