@@ -39,133 +39,26 @@ const ContactForm = () => {
 
   return (
     <div className="container">
-      <div className="page-container">
-        <div className="content-wrap">
-          <div className="contact-container">
-            <div className="contact-card">
-              <h2>Contact me</h2>
-              <form onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-2">
-                    <label htmlFor="name" className="fs-3 text-light">Name:</label>
-                  </div>
-                  <div className="col-10 inputCon pb-5">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      placeholder='Enter Your Name'
-                      className="input-boxs  mt-1 p-2"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-                  <div className="col-2">
-                    <label htmlFor="name" className="fs-3 text-light">Email:</label>
-                  </div>
-                  <div className="col-10 inputCon pb-5">
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder='Enter Your Email'
-                      className="input-boxs mt-1 p-2"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-
-                  <div className="col-2">
-                    <label htmlFor="name" className="fs-3 text-light">Phone:</label>
-                  </div>
-                  <div className="col-10 inputCon pb-5">
-                    <input
-                      type="tel"
-                      id="phone"
-                      placeholder='Enter Your Phone'
-                      name="phone"
-                      className="input-boxs mt-1 p-2"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-
-                  <div className="col-2">
-                    <label htmlFor="name" className="fs-3 text-light">Message</label>
-                  </div>
-                  <div className="col-10 inputCon pb-5">
-                    <textarea
-                      id="message"
-                      name="message"
-                      className="input-box form-control-lg p-2 fs-6"
-                      value={formData.message}
-                      placeholder='Type Your Message Here'
-                      onChange={handleChange}
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-                <button type="submit" className="submit-button m-5 mt-2 mb-4 pb-2 pt-2 ">Send</button>
-              </form>
+        <div className="wrapper">
+          <form onSubmit={handleSubmit}>
+            <p className="form-login">Contact me</p>
+            <div className="input-box">
+              <input required placeholder="Enter your name" type="text" name="name" onChange={handleChange} />
             </div>
-          </div>
+            <div className="input-box">
+              <input required placeholder="Enter your Email" type="email" name="email" onChange={handleChange} />
+            </div>
+            <div className="input-box">
+              <input required placeholder="Enter your Contact number" type="number" name="number" onChange={handleChange} />
+            </div>
+            <div className="input-box">
+              <input required placeholder="Enter your Message" type="text" name="text" onChange={handleChange} />
+            </div>
+            <button className="btn" type="submit" onClick={handleSubmit}>Send</button>
+          </form>
         </div>
       </div>
-    </div>
-  );
+);
 };
 
 export default ContactForm;
-
-{/*
-<div className="input-group">
-                              <label htmlFor="name">Name</label>
-                              <input
-                                  type="text"
-                                  id="name"
-                                  name="name"
-                                  className="input-box"
-                                  value={formData.name}
-                                  onChange={handleChange}
-                                  required
-                              />
-                          </div>
-                          <div className="input-group">
-                              <label htmlFor="email">Email</label>
-                              <input
-                                  type="email"
-                                  id="email"
-                                  name="email"
-                                  className="input-box"
-                                  value={formData.email}
-                                  onChange={handleChange}
-                                  required
-                              />
-                          </div>
-                          <div className="input-group">
-                              <label htmlFor="phone">Phone</label>
-                              <input
-                                  type="tel"
-                                  id="phone"
-                                  name="phone"
-                                  className="input-box"
-                                  value={formData.phone}
-                                  onChange={handleChange}
-                                  required
-                              />
-                          </div>
-                          <div className="input-group">
-                              <label htmlFor="message">Message</label>
-                              <textarea
-                                  id="message"
-                                  name="message"
-                                  className="input-box"
-                                  value={formData.message}
-                                  onChange={handleChange}
-                                  required
-                              ></textarea>
-                          </div>
-                          */}

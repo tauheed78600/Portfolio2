@@ -35,9 +35,7 @@
   margin-bottom: 10px; /* Space below title */
   color : rgb(239, 238, 241)
 }
-.cardDiv{
-  
-}
+
 .card-description {
   font-size: 1rem; /* Description size */
   line-height: 1.5; /* Line height for readability */
@@ -45,10 +43,10 @@
 
 
 .btn {
-  color: purple;
+  color: rgb(239, 234, 239);
   text-transform: uppercase;
   text-decoration: none;
-  border: 2px solid purple;
+  border: 2px solid rgb(194, 74, 194);
   padding: 10px 20px;
   font-size: 17px;
   font-weight: bold;
@@ -60,21 +58,4 @@
 
 .btn:hover {
   color: white;
-}
-
-.btn::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  top: 0;
-  left: -40px;
-  transform: skewX(45deg);
-  background-color: purple;
-  z-index: -1;
-  transition: all 1s;
-}
-
-.btn:hover::before {
-  width: 160%;
 }

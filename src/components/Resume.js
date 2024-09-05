@@ -6,8 +6,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 // Ensure you set the workerSrc correctly
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
 function Resume() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -25,7 +23,7 @@ function Resume() {
             variant="primary"
             href="/Tauheed_resume_Aug.pdf"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px" }} 
           >
             <AiOutlineDownload />
             &nbsp;Download CV

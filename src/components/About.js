@@ -22,7 +22,7 @@ function About() {
             </div>
             <p className="home-about-body">
               Hi Everyone, I am
-              <span className="purple">Tauheed Darekar</span> from <span className="purple">Maharashtra, India.</span>
+              <span className="purple"> Tauheed Darekar</span> from <span className="purple">Maharashtra, India.</span>
               <br />
               <br />I am currently employed as a
               <i>
