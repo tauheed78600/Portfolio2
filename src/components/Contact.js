@@ -46,7 +46,7 @@ const ContactForm = () => {
               <input required placeholder="Enter your name" type="text" name="name" onChange={handleChange} />
             </div>
             <div className="input-box">
-              <input required placeholder="Enter your Email" type="email" name="email" onChange={handleChange} />
+              <input required placeholder="Enter your mailsss" type="email" name="email" onChange={handleChange} />
             </div>
             <div className="input-box">
               <input required placeholder="Enter your Contact number" type="number" name="number" onChange={handleChange} />
