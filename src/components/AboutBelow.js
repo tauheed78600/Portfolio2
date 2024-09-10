@@ -28,6 +28,10 @@ function AboutBelow() {
             <span>MySQL</span>
           </div>
           <div className="skill">
+            <SiSpringboot />
+            <span>Spring Boot</span>
+          </div>
+          <div className="skill">
             <FaNodeJs />
             <span>NodeJS</span>
           </div>
@@ -39,18 +43,12 @@ function AboutBelow() {
             <FaReact />
             <span>ReactJS</span>
           </div>
-          <div className="skill">
-            <SiNestjs />
-            <span>NestJs</span>
-          </div>
+
           <div className="skill">
             <SiC />
             <span>C</span>
           </div>
-          <div className="skill">
-            <SiSpringboot />
-            <span>Spring Boot</span>
-          </div>
+          
           
         </div>
   

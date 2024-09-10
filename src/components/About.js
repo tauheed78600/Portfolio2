@@ -45,7 +45,7 @@ function About() {
               <br />
               <br />
               &nbsp; Apart from coding, some other activities that I love to do!
-              <ul>
+              <ul className='listHobbies'>
                 <li className="about-activity">
                   <ImPointRight /> Playing Cricket
                 </li>
